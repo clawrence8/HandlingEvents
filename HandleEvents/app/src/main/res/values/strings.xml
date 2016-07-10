@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Handle Events</string>
+    <string name="name_prompt">Enter your name:</string>
+    <string name="submit_xml">Submit (XML)</string>
+    <string name="submit_java">Submit (Java)</string>
+    <string name="edit_text_hint">George P. Burdell</string>
+    <string name="new_pic">Choose new pic</string>
+</resources>
