@@ -74,7 +74,7 @@ public class OtherActivity extends AppCompatActivity {
         // if the request code matches the one from your intent AND the result was ok AND the data
         // is not null, then grab the image and display it to the image view
         if (requestCode == SELECT_PICTURE && (resultCode == RESULT_OK) && data != null) {
-            // Get the URI the data
+            // Get the URI of the data
             Uri selectedImageUri = data.getData();
             //create an empty bitmap variable that will attempt to store the photo
             Bitmap bm = null;

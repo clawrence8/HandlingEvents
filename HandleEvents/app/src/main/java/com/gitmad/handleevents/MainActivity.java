@@ -79,9 +79,10 @@ public class MainActivity extends AppCompatActivity {
      */
     public void xmlSubmit(View view) {
         // Extract the user's name from the text box and save it in a variable
-        String name = nameEditText.getText().toString();
+        //String name = nameEditText.getText().toString();
         // The Log class is very handy when debugging. To make sure you have the correct
         // value in your variable, log the username to the Android Monitor here with Log.i()
+        String name = "George P. Burdell";
         Log.i("username", name);
         // Create a new intent that will take the user from this activity to OtherActivity
         Intent intent = new Intent(MainActivity.this, OtherActivity.class);
